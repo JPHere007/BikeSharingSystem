@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+>Build a multiple linear regression model for the prediction of demand for shared bikes.
 
 
 ## Table of Contents
@@ -11,26 +11,29 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- This project is an applicaton of Linear Regression model where we trying to identify various factors which affects Bike Sales count by applying Linear Regression learnings.
+    
+- Background of your project: A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario.
+    
+- Business probem that your project is trying to solve: BoomBikes company wants to know:
+  * Which variables are significant in predicting the demand for shared bikes.
+  * How well those variables describe the bike demands
+- Dataset that is being used: day.csv dataset
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- From the model summary temp, weathsit_snow, yr are most signficant in bikesale count.
+- Increase in weather and yr (2019) are positively affecting bike sales, 
+- whereas snow weather is negatively affecting the sales.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+numpy, pandas, matplotlib for Dataframe & Plot creation
+
+sklearn & statsmodel for linear Regression modelling
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
@@ -42,7 +45,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@JPHere007] - feel free to contact me!
 
 
 <!-- Optional -->
